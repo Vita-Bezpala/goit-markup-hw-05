@@ -331,8 +331,22 @@ body {
 border-radius: 4px;
 }
 
+.customers-link:hover,
+.customers-link:focus {
+  border: 1px solid #4D5AE5;
+}
+
+.customers-link:hover .costumers-icon,
+.customers-link:focus .costumers-icon {
+  fill: #4D5AE5;
+}
+
 .costumers-icon{
   fill: #AFB1B8;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
 
 }
 
@@ -494,6 +508,4 @@ color: #FFFFFF;
   height: 100%;
   background-color:  rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  
- 
 }
