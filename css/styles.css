@@ -550,10 +550,11 @@ img {
 .footer-content {
   margin: 0;
   padding-top: 16px;
-  max-width: 264px;
+  width: 264px;
 }
 
 .footer-social {
+  margin-left: 120px;
 }
 
 .footer-soc-list {
@@ -590,4 +591,13 @@ img {
   height: 100%;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+}
+
+.footer-container{
+  max-width: 256px;
+
+}
+.footer-background .container {
+  display: flex;
+  align-items: baseline;
 }
