@@ -55,7 +55,7 @@
           <h1 class="title indent-title">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="header-btn">Order Service</button>
+          <button type="button" class="header-btn" data-modal-open>Order Service</button>
         </div>
       </section>
       <section class="section-size">
@@ -443,12 +443,16 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close-btn"></button>
-
+        <button type="button" class="modal-close-btn" data-modal-close>
+        <svg class="modal-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-Close"></use>
+        </svg>
+      </button>
       </div>
 
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
