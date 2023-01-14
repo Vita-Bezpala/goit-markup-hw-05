@@ -662,7 +662,7 @@ img {
   background-color: rgba(46, 47, 66, 0.4);
   transform: scale(1);
   transition: opasity var(--transition),
-    visibility var(--transition) transform var(--transition);
+    visibility var(--transition), transform var(--transition);
 }
 
 .backdrop.is-hidden {
